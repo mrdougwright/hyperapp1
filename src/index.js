@@ -1,4 +1,3 @@
-import _ from 'lodash';
 import { h, app } from "hyperapp"
 
 app({
@@ -11,15 +10,3 @@ app({
     ]),
   node: document.getElementById("app")
 })
-
-function component() {
-  const h1 = document.createElement('h1')
-
-  // Lodash, imported by this script
-  h1.innerHTML = _.join(['Hello', 'Hyperapp!'], ' ')
-
-  return h1
-}
-
-document.body.prepend(component())
-
