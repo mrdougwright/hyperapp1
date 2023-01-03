@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "hyperapp": "^2.0.4",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "webpack": "^5.75.0",
